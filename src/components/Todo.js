@@ -22,7 +22,7 @@ function Todo(props) {
         </button>
       </div>
       {/*modalIsOpen ?      <Modal/ > : null
-        if modal is true we render modal, else we dont output anything*/}
+        if the condition is true, the element right after && will appear in the output. If it is false, React will ignore and skip it*/}
       {modalIsOpen && <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler}/>}
       {/*if you use && if both conditions are true second value will be returned*/}
       {modalIsOpen && <Backdrop onCancel={closeModalHandler} />}

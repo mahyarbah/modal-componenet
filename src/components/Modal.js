@@ -13,7 +13,7 @@ function confirmHandler() {
 <p>Are you sure?</p>
 <button className="btn btn--alt" onClick={cancelHandler}>
     cancel</button>
-<button className="btn" onClick={confirmHandler}>
+<button className="btn " onClick={confirmHandler}>
      confirm</button>
 
 </div>
